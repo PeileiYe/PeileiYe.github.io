@@ -1,0 +1,62 @@
+.principal {
+    font-family:  url("Breaking Bad.ttf");
+    background-image: url("/IMG/fondo.jpg");
+    background-size:cover;
+    background-repeat: no repeat;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: brown 10px outset;
+    border-radius: 22px;
+    display: inline-block;
+}
+
+.tabla{
+    font-family: Helvetica, sans-serif;
+    font-stretch: narrower;
+    line-height: 0.9;
+}  
+
+#Br{
+    padding:5px 10px;
+    background: #b9da26; 
+    font-family: Helvetica, sans-serif;
+    color:#2b2c25;
+    font-size: 70px;
+}
+
+#eaking{
+    font-family: Helvetica, sans-serif;
+    color:white;
+    font-size: 70px;
+}
+
+#Ba{
+    padding:5px 10px;
+    background: #b9da26; 
+    font-family: Helvetica, sans-serif;
+    color:#2b2c25;
+    font-size: 70px;
+}
+
+#d{
+    font-family: Helvetica, sans-serif;
+    color:white;
+    font-size: 70px;
+}
+
+#nota{
+    font-family: Helvetica, sans-serif;
+    color:red;
+    font-size: 20px;}
+
+.formulario{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    background-image: url("/IMG/fondo.jpg");
+    background-size:cover;
+    background-repeat: no repeat;
+}
