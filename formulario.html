@@ -7,33 +7,56 @@
     <link rel="icon" href="IMG/icon.png" type="image/x-icon">
     <title>Formulario</title>
 </head>
-<body class="formulario" align="center">
-        <h1>Breaking Bad - Que comience el juego!</h1>
-        <br>
-        <form action="mailto:raul.rodriguez@proeducaglobal.com">
-            Nombre: <input type="text" required>
-            Apellidos: <input type="text" required>
-            <br>Dirección Postal: Calle <input type="text"> Número <input type="text"> Piso <input type="text">
-            <br>Código Postal <input type="text"> Ciudad <input type="text">
-            <br>DNI: <input type="text">
-            <br>Correo Electrónico<input type="email" required>
-            <br>Sexo: <input type="radio" name="sexo" value="Hombre">Hombre <input type="radio" name="sexo" value="Mujer">Mujer
-            Fecha de nacimiento:<input type="date" name="" id="">
-            <br>Selecciona tu personaje favorito en Breaking Bad:
-            <select name="personajes">
-                <option value="1">Jessie Pinkman</option>
-                <option value="2">Walter White</option>
-                <option value="3">Saul Goodman</option>
-                <option value="4">Gustavo Fring</option>
-                <option value="5">Pollos Hermanos</option>
-                <option value="6">Otros personajes</option>
-            </select>
-            <br>
-            <br>Comentarios:
-            <br><textarea placeholder="Escribe aquí su opinión sobre Breaking Bad" rows="20" cols="80" maxlength="500"></textarea>
-            <br><input type="submit" value="Enviar">
-            <input type="reset" value="Borrar">
-            <input type="file" name="adjunto" value="Adjuntar Archivos" multiple>
+<body class="page_formulario">
+    <h1 align="center"> Breaking Bad - Que comience el juego!</h1>
+    <br>
+    <div class="formulario">
+        <form action="mailto:raul.rodriguez@proeducaglobal.com" name="ficha">
+            <fieldset>
+                <legend>Ficha de usuario</legend>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    Nombre: <input type="text" name="nombre" placeholder="Indica tu nombre" required>
+                    <br>Apellidos: <input type="text" name="apellidos" placeholder="Indica tu 1º y 2º apellido" required>
+                    <br>DNI: <input type="text" placeholder="Indica tu DNI" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    Dirección postal: Calle <input type="text"> Número <input type="text"> Piso <input type="text">
+                    <br>Código Postal:  <input type="text"> 
+                    <br>Ciudad: <input type="text">
+                    <br>Correo Electrónico:<input type="email" placeholder="Indica tu email" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Selecciona tu sexo</legend>
+                    <input type="radio" name="sexo" value="Hombre">Hombre 
+                    <br><input type="radio" name="sexo" value="Mujer">Mujer
+                </fieldset>
+                <fieldset>
+                    <legend>Fecha de nacimiento</legend>
+                    Selecciona tu fecha de nacimiento: <input type="date" name="" id="">
+                </fieldset>
+                <fieldset>
+                    <legend>Personaje favorito</legend>
+                    <br>Selecciona tu personaje favorito de Breaking Bad:
+                    <select name="personajes">
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros personajes</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <br><textarea placeholder="Escribe aquí su opinión sobre Breaking Bad" rows="20" cols="80" maxlength="500"></textarea>
+                </fieldset>
+                <br><input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+                <input type="file" name="adjunto" value="Adjuntar Archivos" multiple>
+
         </form>
+    </div>
 </body>
 </html>

@@ -56,10 +56,16 @@
 }
 
 .formulario{
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 30px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+}
+
+.page_formulario{
     background-image: url("/IMG/fondo.jpg");
     background-size:cover;
     background-repeat: no repeat;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
