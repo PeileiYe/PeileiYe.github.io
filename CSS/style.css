@@ -13,47 +13,36 @@
     display: inline-block;
 }
 
-.tabla{
+.page_tabla{
+    background-color: #0c3e11;
     font-family: Helvetica, sans-serif;
     font-stretch: narrower;
     line-height: 0.9;
+    text-align: center;
 }  
 
-#Br{
-    padding:5px 10px;
-    background: #b9da26; 
-    font-family: Helvetica, sans-serif;
+
+.tabla{
+    background-color:#2b2c25 ;
     color:#2b2c25;
-    font-size: 70px;
+    width:fit-content;
+    text-align: center;
 }
 
-#eaking{
-    font-family: Helvetica, sans-serif;
-    color:white;
-    font-size: 70px;
+tr, td{
+    border: 10px #2b2c25;
+    border-collapse: separate;
 }
 
-#Ba{
-    padding:5px 10px;
-    background: #b9da26; 
-    font-family: Helvetica, sans-serif;
-    color:#2b2c25;
-    font-size: 70px;
+td{
+    height:70px;
+    width:80px;
 }
 
-#d{
-    font-family: Helvetica, sans-serif;
-    color:white;
-    font-size: 70px;
+td img{
+    width:65%;
 }
 
-#nota{
-    font-family: Helvetica, sans-serif;
-    color:red;
-    font-size: 25px;
-    vertical-align: baseline;
-    line-height: 10px;
-}
 
 .formulario{
     display: flex;
