@@ -9,13 +9,20 @@
 
 h1{
     color:white;
-    font-size: 24px;
+    font-size: 24px;   
 }
 
 h2{
     text-align: center;
     font-size: 35px;
+    font-stretch: extra-condensed；
 }
+h3{
+    font-size:38px;
+    font-stretch: extra-condensed;
+    line-height: 0.01;
+}
+
 
 #logo{
     width:200px;
@@ -33,18 +40,18 @@ h2{
 .page_tabla{
     background-color: #0c3e11;
     font-family: Helvetica, sans-serif;
-    font-stretch: narrower;
-    line-height: 0.9;
     text-align: center;
+    line-height: 8px;
+   
 }  
-
 
 .tabla{
     background-color:#2b2c25 ;
     color:#2b2c25;
     width:fit-content;
-    text-align: center;
+    line-height: 8px; 
 }
+
 
 tr, td{
     border: 10px #2b2c25;
@@ -52,14 +59,17 @@ tr, td{
 }
 
 td{
-    height:70px;
+    height: 50px;  
     width:80px;
 }
 
 td img{
-    width:65%;
+    width:100%;
 }
 
+.td_table2{
+    background-color: bgcolor=#b4b838;
+}
 
 .formulario{
     display: flex;
