@@ -3,6 +3,23 @@
     background-image: url("/IMG/fondo.jpg");
     background-size:cover;
     background-repeat: no repeat;
+    text-align: center;
+
+}
+
+h1{
+    color:white;
+    font-size: 24px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+#logo{
+    width:200px;
+    height:200px;
 }
 
 #poster{
@@ -57,4 +74,9 @@ td img{
     font-family: Helvetica, sans-serif;
     font-size: 20px;
     line-height: 30px;
+}
+#ficha{
+    text-align:center;
+    font-weight:900;
+    font-size: 25px;
 }
