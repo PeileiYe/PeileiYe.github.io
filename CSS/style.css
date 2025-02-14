@@ -53,8 +53,8 @@ h3{
    
 }  
 .centrartabla{
-    display:flex;
-    justify-content:center;
+    margin: auto;
+    display: table;
 }
 
 
