@@ -1,6 +1,16 @@
+@font-face {
+    font-family: "BreakingBad";
+    src:url("/Breaking\ Bad.ttf");
+}
+
+:root {
+    --fuente-principal: "BreakingBad";
+}
+    
+
 .principal {
-    font-family:  url("Breaking Bad.ttf");
-    background-image: url("/IMG/fondo.jpg");
+    font-family:  var(--fuente-principal);
+    background-image: url("../IMG/fondo.jpg");
     background-size:cover;
     background-repeat: no repeat;
     text-align: center;
@@ -9,17 +19,16 @@
 
 h1{
     color:white;
-    font-size: 24px;   
+    font-size: 38px;   
 }
 
 h2{
     text-align: center;
     font-size: 35px;
-    font-stretch: extra-condensed；
 }
+
 h3{
     font-size:38px;
-    font-stretch: extra-condensed;
     line-height: 0.01;
 }
 
@@ -39,17 +48,23 @@ h3{
 
 .page_tabla{
     background-color: #0c3e11;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica;
     text-align: center;
-    line-height: 8px;
    
 }  
+.centrartabla{
+    display:flex;
+    justify-content:center;
+}
+
 
 .tabla{
     background-color:#2b2c25 ;
     color:#2b2c25;
     width:fit-content;
     line-height: 8px; 
+    font-stretch: extra-condensed;
+    border-spacing: 10px;
 }
 
 
@@ -59,16 +74,49 @@ tr, td{
 }
 
 td{
-    height: 50px;  
+    height: 60px;  
     width:80px;
 }
 
 td img{
-    width:100%;
+    width:80px;
+}
+
+.td_color1{
+    background-color: #b9da26;
+
+}
+.td_color2{
+    background-color: #ab8ecb;
+}
+.td_color3{
+    background-color: #f2f7d1;
+
+}
+.td_color4{
+    background-color: #88a508;
+}
+
+.td_color5{
+    background-color: #637025;
+
+}
+.td_color6{
+    background-color: #cae652;
+}
+.td_color7{
+
+    background-color: #bbc3a0;
+}
+.td_color8{
+    background-color: #adbe66;
+}
+.td_color9{
+    background-color: #818c54;
 }
 
 .td_table2{
-    background-color: bgcolor=#b4b838;
+    background-color: #b4b838;
 }
 
 .formulario{
@@ -78,10 +126,10 @@ td img{
 }
 
 .page_formulario{
-    background-image: url("/IMG/fondo.jpg");
+    background-image: url("../IMG/fondo.jpg");
     background-size:cover;
     background-repeat: no repeat;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica;
     font-size: 20px;
     line-height: 30px;
 }
