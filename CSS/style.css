@@ -138,6 +138,9 @@ td img{
     display: flex;
     margin:auto;
     justify-content: center;
+    background-color: rgba(255,255,255,0.3);
+    width:fit-content;
+
 }
 
 
@@ -146,11 +149,18 @@ td img{
     background-size:cover;
     background-repeat: no repeat;
     font-family: Helvetica;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2em;
 }
 #ficha{
     text-align:center;
     font-weight:900;
     font-size: 25px;
+}
+.botonbox{
+    text-align: center;
+
+}
+.boton{
+    font-size: 18px;
 }
